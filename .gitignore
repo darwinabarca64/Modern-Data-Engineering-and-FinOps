@@ -1,0 +1,43 @@
+# Python Environment and Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing, Coverage and Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE and Editor Cache
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Antigravity Brain and Local Agent Customizations
+.system_generated/
+.antigravity/
+*.log
+
+# Internal Compilation Tools and Automated Test Suites (Excluded from Public Publishing)
+tools/
+tests/
+
+# Explicit Inclusions: Master Treatises and Distribution Artifacts
+!dist/
+!dist/**
+!Data-architecture.md
+!README.md
